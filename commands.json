@@ -1,0 +1,462 @@
+[
+  {
+    "command": "/annonce",
+    "plugin": "XZBAnnouncer",
+    "description": "Ouvre le panneau administrateur de création et gestion des annonces automatiques."
+  },
+  {
+    "command": "/arena",
+    "plugin": "ObsidianFFA",
+    "description": "Ouvre le menu de l’arène FFA."
+  },
+  {
+    "command": "/auth",
+    "plugin": "DiscordAuth",
+    "description": "Génère ou affiche le code permettant de lier son compte Rust au bot Discord."
+  },
+  {
+    "command": "/authenticate",
+    "plugin": "DiscordAuth",
+    "description": "Alias de `/auth`."
+  },
+  {
+    "command": "/autocode",
+    "plugin": "ObsidianAutoLock",
+    "description": "Ouvre le menu des préférences de verrouillage automatique par code. Configurable."
+  },
+  {
+    "command": "/basegrenade",
+    "plugin": "ObsidianBaseGrenade",
+    "description": "Ouvre le panneau de gestion des modèles et grenades de base. Configurable."
+  },
+  {
+    "command": "/bfs [list\\|give <événement> [quantité]\\|testalarm\\|stop]",
+    "plugin": "BattlefieldSignals",
+    "description": "Liste, donne, teste ou arrête les événements Battlefield Signals ; administration uniquement."
+  },
+  {
+    "command": "/bgrade <0-4\\|t <secondes>\\|help>",
+    "plugin": "BGrade",
+    "description": "Active l’amélioration automatique des constructions placées : 0 désactive, 1 bois, 2 pierre, 3 métal, 4 blindé ; `t` définit la durée."
+  },
+  {
+    "command": "/blacklist [additem\\|deleteitem] \"objet\"",
+    "plugin": "BetterLoot",
+    "description": "Affiche ou modifie la liste noire d’objets de BetterLoot."
+  },
+  {
+    "command": "/bl-backup",
+    "plugin": "BetterLoot",
+    "description": "Crée manuellement une sauvegarde de la configuration BetterLoot."
+  },
+  {
+    "command": "/bl-restore",
+    "plugin": "BetterLoot",
+    "description": "Restaure une sauvegarde BetterLoot."
+  },
+  {
+    "command": "/cheatbike",
+    "plugin": "SuperVelo",
+    "description": "Fait apparaître/utiliser le vélo rapide du plugin."
+  },
+  {
+    "command": "/clean.inv",
+    "plugin": "InventoryCleaner",
+    "description": "Alias de `/clearinv` : nettoie l’inventaire selon les droits accordés."
+  },
+  {
+    "command": "/clear",
+    "plugin": "InventoryCleaner",
+    "description": "Alias de `/clearinv`."
+  },
+  {
+    "command": "/clear.inv",
+    "plugin": "InventoryCleaner",
+    "description": "Alias de `/clearinv`."
+  },
+  {
+    "command": "/clearinv",
+    "plugin": "InventoryCleaner",
+    "description": "Nettoie l’inventaire du joueur ou la cible indiquée, selon les permissions."
+  },
+  {
+    "command": "/copy <nom> [options]",
+    "plugin": "CopyPaste",
+    "description": "Copie la construction ciblée et l’enregistre sous le nom donné."
+  },
+  {
+    "command": "/copylist",
+    "plugin": "CopyPaste",
+    "description": "Affiche les constructions sauvegardées par CopyPaste."
+  },
+  {
+    "command": "/c4",
+    "plugin": "ObsidianRaid",
+    "description": "Sélectionne/obtient le C4 lié au système de raid."
+  },
+  {
+    "command": "/daynight",
+    "plugin": "XZBDayNight",
+    "description": "Ouvre le menu de préférence d’affichage jour/nuit. Configurable."
+  },
+  {
+    "command": "/deauth",
+    "plugin": "DiscordAuth",
+    "description": "Dissocie son compte Rust du compte Discord."
+  },
+  {
+    "command": "/deauthenticate",
+    "plugin": "DiscordAuth",
+    "description": "Alias de `/deauth`."
+  },
+  {
+    "command": "/debug.invis",
+    "plugin": "Vanish",
+    "description": "Alias historique qui active/désactive Vanish."
+  },
+  {
+    "command": "/fattack",
+    "plugin": "SpawnHeli",
+    "description": "Rappelle votre hélicoptère d’attaque à proximité."
+  },
+  {
+    "command": "/fheli",
+    "plugin": "SpawnHeli",
+    "description": "Rappelle votre hélicoptère de transport."
+  },
+  {
+    "command": "/fmoto",
+    "plugin": "SpawnHeli",
+    "description": "Rappelle votre moto."
+  },
+  {
+    "command": "/fmotorbike",
+    "plugin": "SpawnHeli",
+    "description": "Alias de `/fmoto`."
+  },
+  {
+    "command": "/fmini",
+    "plugin": "SpawnHeli",
+    "description": "Rappelle votre minicoptère."
+  },
+  {
+    "command": "/ffa [join\\|leave]",
+    "plugin": "ObsidianFFA",
+    "description": "Ouvre le menu FFA, rejoint l’arène avec `join` ou la quitte avec `leave`."
+  },
+  {
+    "command": "/ffaadmin ...",
+    "plugin": "ObsidianFFA",
+    "description": "Commandes de gestion de l’arène FFA, notamment du kit ; administration uniquement."
+  },
+  {
+    "command": "/god [joueur]",
+    "plugin": "Godmode",
+    "description": "Active/désactive l’invulnérabilité pour vous-même ou pour le joueur ciblé."
+  },
+  {
+    "command": "/godlist",
+    "plugin": "Godmode",
+    "description": "Alias de `/gods`."
+  },
+  {
+    "command": "/godmode [joueur]",
+    "plugin": "Godmode",
+    "description": "Alias de `/god`."
+  },
+  {
+    "command": "/gods",
+    "plugin": "Godmode",
+    "description": "Affiche les joueurs actuellement en godmode."
+  },
+  {
+    "command": "/grade <0-4\\|t <secondes>\\|help>",
+    "plugin": "BGrade",
+    "description": "Alias de `/bgrade`."
+  },
+  {
+    "command": "/invis",
+    "plugin": "Vanish",
+    "description": "Alias historique qui active/désactive Vanish."
+  },
+  {
+    "command": "/inv",
+    "plugin": "Vanish",
+    "description": "Consulte l’inventaire d’un joueur si vous avez la permission d’inspection."
+  },
+  {
+    "command": "/inv.clean",
+    "plugin": "InventoryCleaner",
+    "description": "Alias de `/clearinv`."
+  },
+  {
+    "command": "/inv.clear",
+    "plugin": "InventoryCleaner",
+    "description": "Alias de `/clearinv`."
+  },
+  {
+    "command": "/invclean",
+    "plugin": "InventoryCleaner",
+    "description": "Alias de `/clearinv`."
+  },
+  {
+    "command": "/invclear",
+    "plugin": "InventoryCleaner",
+    "description": "Alias de `/clearinv`."
+  },
+  {
+    "command": "/inspect <joueur>",
+    "plugin": "InventoryViewer",
+    "description": "Ouvre l’inventaire du joueur indiqué."
+  },
+  {
+    "command": "/invspy <joueur>",
+    "plugin": "Vanish",
+    "description": "Alias de `/inv` pour inspecter un inventaire."
+  },
+  {
+    "command": "/killfeed [test]",
+    "plugin": "XZBKillFeed",
+    "description": "Affiche/masque votre kill feed ; `test` montre un aperçu réservé aux administrateurs."
+  },
+  {
+    "command": "/kit [nom]",
+    "plugin": "ObsidianKits",
+    "description": "Ouvre le menu des kits ou réclame le kit indiqué."
+  },
+  {
+    "command": "/looty \"identifiant\"",
+    "plugin": "BetterLoot",
+    "description": "Télécharge/importe une table Looty par son identifiant."
+  },
+  {
+    "command": "/mapnoteteleport",
+    "plugin": "MapNoteTeleport",
+    "description": "Téléporte au marqueur de carte sélectionné ou gère cette téléportation selon la configuration."
+  },
+  {
+    "command": "/menu",
+    "plugin": "ObsidianWelcome",
+    "description": "Ouvre le menu d’accueil et d’informations du serveur."
+  },
+  {
+    "command": "/mnt",
+    "plugin": "MapNoteTeleport",
+    "description": "Alias de `/mapnoteteleport`."
+  },
+  {
+    "command": "/myattack",
+    "plugin": "SpawnHeli",
+    "description": "Fait apparaître votre hélicoptère d’attaque."
+  },
+  {
+    "command": "/myheli",
+    "plugin": "SpawnHeli",
+    "description": "Fait apparaître votre hélicoptère de transport."
+  },
+  {
+    "command": "/mymini",
+    "plugin": "SpawnHeli",
+    "description": "Fait apparaître votre minicoptère."
+  },
+  {
+    "command": "/mymoto",
+    "plugin": "SpawnHeli",
+    "description": "Fait apparaître votre moto."
+  },
+  {
+    "command": "/mymotorbike",
+    "plugin": "SpawnHeli",
+    "description": "Alias de `/mymoto`."
+  },
+  {
+    "command": "/noattack",
+    "plugin": "SpawnHeli",
+    "description": "Supprime votre hélicoptère d’attaque."
+  },
+  {
+    "command": "/noheli",
+    "plugin": "SpawnHeli",
+    "description": "Supprime votre hélicoptère de transport."
+  },
+  {
+    "command": "/nomini",
+    "plugin": "SpawnHeli",
+    "description": "Supprime votre minicoptère."
+  },
+  {
+    "command": "/nomoto",
+    "plugin": "SpawnHeli",
+    "description": "Supprime votre moto."
+  },
+  {
+    "command": "/nomotorbike",
+    "plugin": "SpawnHeli",
+    "description": "Alias de `/nomoto`."
+  },
+  {
+    "command": "/paste <nom> [options]",
+    "plugin": "CopyPaste",
+    "description": "Colle à votre position une construction sauvegardée."
+  },
+  {
+    "command": "/pasteback",
+    "plugin": "CopyPaste",
+    "description": "Replace la dernière construction collée à son emplacement précédent."
+  },
+  {
+    "command": "/perms",
+    "plugin": "PermissionsManager",
+    "description": "Ouvre le panneau de gestion des permissions et groupes."
+  },
+  {
+    "command": "/points",
+    "plugin": "XZBPointShop",
+    "description": "Affiche votre solde de points XZB."
+  },
+  {
+    "command": "/pop",
+    "plugin": "Pop",
+    "description": "Affiche votre temps de jeu personnel."
+  },
+  {
+    "command": "/raid",
+    "plugin": "ObsidianRaid",
+    "description": "Ouvre le panneau du système de raid."
+  },
+  {
+    "command": "/remove",
+    "plugin": "StaffRemoveTool",
+    "description": "Active/désactive l’outil de suppression d’entités visées ; réservé au staff. Configurable."
+  },
+  {
+    "command": "/rocket",
+    "plugin": "RocketMode",
+    "description": "Active/désactive le tir rapide de roquettes au clic gauche."
+  },
+  {
+    "command": "/scoreboard",
+    "plugin": "XZBScoreboard",
+    "description": "Ouvre le tableau des scores et statistiques."
+  },
+  {
+    "command": "/shop [admin]",
+    "plugin": "XZBPointShop",
+    "description": "Ouvre la boutique de points ; `admin` ouvre le mode administration si autorisé."
+  },
+  {
+    "command": "/skin [show\\|get\\|purgecache\\|add\\|remove]",
+    "plugin": "Skins",
+    "description": "Ouvre les skins, récupère l’identifiant du skin d’un objet, vide le cache ou gère les skins (admin)."
+  },
+  {
+    "command": "/skins",
+    "plugin": "Skins",
+    "description": "Alias de `/skin`."
+  },
+  {
+    "command": "/skins.skin [show\\|get\\|purgecache\\|add\\|remove]",
+    "plugin": "Skins",
+    "description": "Commande interne également enregistrée par le plugin ; mêmes actions que `/skin`."
+  },
+  {
+    "command": "/stacksizecontroller.itemsearch <recherche>",
+    "plugin": "StackSizeController",
+    "description": "Cherche des objets afin de configurer leurs tailles de pile ; administration requise."
+  },
+  {
+    "command": "/stacksizecontroller.listcategories",
+    "plugin": "StackSizeController",
+    "description": "Liste les catégories d’objets disponibles pour les tailles de pile."
+  },
+  {
+    "command": "/stacksizecontroller.listcategoryitems <catégorie>",
+    "plugin": "StackSizeController",
+    "description": "Liste les objets d’une catégorie."
+  },
+  {
+    "command": "/stacksizecontroller.setallstacks <taille>",
+    "plugin": "StackSizeController",
+    "description": "Modifie la taille maximale de pile de tous les objets ; administration requise."
+  },
+  {
+    "command": "/stacksizecontroller.setstack <objet> <taille>",
+    "plugin": "StackSizeController",
+    "description": "Modifie la taille maximale de pile d’un objet."
+  },
+  {
+    "command": "/stacksizecontroller.setstackcat <catégorie> <taille>",
+    "plugin": "StackSizeController",
+    "description": "Modifie la taille maximale de pile d’une catégorie."
+  },
+  {
+    "command": "/stacksizecontroller.vd",
+    "plugin": "StackSizeController",
+    "description": "Génère le fichier des tailles de pile vanilla."
+  },
+  {
+    "command": "/stats",
+    "plugin": "XZBScoreboard",
+    "description": "Alias de `/scoreboard`."
+  },
+  {
+    "command": "/supervelo",
+    "plugin": "SuperVelo",
+    "description": "Active ou fait apparaître le vélo rapide."
+  },
+  {
+    "command": "/top",
+    "plugin": "XZBScoreboard",
+    "description": "Alias de `/scoreboard`."
+  },
+  {
+    "command": "/uadmin",
+    "plugin": "UltraAdminPanel",
+    "description": "Ouvre le panneau d’administration UltraAdminPanel. Configurable."
+  },
+  {
+    "command": "/undo",
+    "plugin": "CopyPaste",
+    "description": "Annule le dernier collage CopyPaste lorsque l’option est autorisée."
+  },
+  {
+    "command": "/unlockbps [all\\|refresh\\|status\\|missing\\|joueur]",
+    "plugin": "UnlockAllBPs",
+    "description": "Débloque les blueprints pour vous, tous les connectés, ou un joueur ; administration uniquement."
+  },
+  {
+    "command": "/vanish [true\\|false]",
+    "plugin": "Vanish",
+    "description": "Active/désactive l’invisibilité. Les arguments permettent de forcer l’état."
+  },
+  {
+    "command": "/vbed ...",
+    "plugin": "XZBVirtualBeds",
+    "description": "Ouvre et pilote le panneau administrateur des lits/points de réapparition virtuels."
+  },
+  {
+    "command": "/viewinv <joueur>",
+    "plugin": "InventoryViewer",
+    "description": "Ouvre l’inventaire du joueur indiqué."
+  },
+  {
+    "command": "/viewinventory <joueur>",
+    "plugin": "InventoryViewer",
+    "description": "Alias de `/viewinv`."
+  },
+  {
+    "command": "/xzbwm",
+    "plugin": "XZBWatermark",
+    "description": "Ouvre le panneau administrateur du watermark."
+  },
+  {
+    "command": "/zones",
+    "plugin": "XZBZones",
+    "description": "Ouvre le panneau administrateur de gestion des zones."
+  },
+  {
+    "command": "!pop",
+    "plugin": "Pop",
+    "description": "Envoie le temps de jeu de l’auteur à tous les joueurs ; nécessite la permission du plugin."
+  }
+]
